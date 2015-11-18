@@ -17,7 +17,7 @@ $(window).load(function() {
       // set filter for group
       filters[ filterGroup ] = $this.attr('data-filter');
       // combine filters
-      var filterValue = '';
+      var filterValue = concatValues( filters );
       for ( var prop in filters ) {
         filterValue += filters[ prop ];
       }
@@ -33,7 +33,15 @@ $(window).load(function() {
         $( this ).addClass('is-checked');
       });
     });
+
+
+  function concatValues( obj ) {
+  var value = '';
+  for ( var prop in obj ) {
+    value += obj[ prop ];
+  }
+  return value;
+}
+
   });
-
-
 });
