@@ -121,11 +121,17 @@ h2 {
 	color: #f4f3f3;
 }
 .restitle {
-	font-family: PT Sans;
+	font-family: Merriweather;
 }
 
 .locationtitle{
-	font-family: PT Sans;
+	font-family: Open Sans;
+}
+
+.thumbbox {
+	background-color: rgba(214, 214, 214, .7);
+	border-radius: 4px;
+	text-align: center;
 }
 
 /*modal*/
