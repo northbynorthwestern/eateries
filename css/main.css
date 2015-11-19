@@ -34,12 +34,13 @@ body {
 }
 
 h1 {
-	font-family: "Catamaran", "Georgia", serif;
-	font-size: 3.5em;
+	font-family: "Righteous", "Georgia", serif;
+	font-size: 5.5em;
 	font-weight: 900;
 	margin-top: 20%;
 	margin-left: 4%;
 	position: absolute;
+	color: white;
 }
 
 h2 {
@@ -47,7 +48,6 @@ h2 {
 	font-size: 1.2em;
 	font-weight: 300;
 	margin-bottom: 1.3em;
-	text-align: center;
 }
 
 .story {
@@ -93,7 +93,7 @@ h2 {
 }
 
 .btn {
-	font-family: "Open Sans", "Helvetica", sans-serif;
+	font-family: "Bitter", "Helvetica", sans-serif;
 	font-weight: 700;
 	font-size: 0.75em;
 	background-color: white;
