@@ -87,7 +87,8 @@ h2 {
 	border: 2px solid black;
 	padding: 7px 12px 7px 12px;
 	margin-right: 10px;
-	outline: 0
+	outline: 0;
+	border-radius: 5px;
 }
 
 .container img {
@@ -117,7 +118,7 @@ h2 {
 }
 
 .is-checked {
-	background-color: #5da3d5;
+	background-color: #941751;
 	color: #f4f3f3;
 }
 .restitle {
