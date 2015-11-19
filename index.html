@@ -34,9 +34,8 @@
   </header>
 
   <div id="display">
-    <h1>A *more* comprehensive guide to Evanston eateries</h1>
-    <h2>You're not you when you're hungry</h2>
-    <p class="story">NBN knows that, so we've put together the most holistic resource you can turn to whenever your stomach talks to people louder than you do. Whether you're breaking fast or midnight snacking, there's a spot somewhere in Evanston for you.</p>
+    <h1>Eateries of Evanston</h1>
+    <h2>Whether you're looking to break your fast or snack at midnight, NBN has the restaurant guide for you.</h2>
   </div>
 
   <div class="container">
@@ -44,6 +43,7 @@
     <div id="filters">
       <div class="ui-group">
         <p class="instruction big">CATEGORIES:</p>
+        <div style="float: left; margin-bottom: 50px;">
           <p class="instruction">TYPE OF FOOD</p>
             <div class="button-group" data-filter-group="type">
               <button class="btn is-checked" data-filter="">ALL</button>
@@ -53,15 +53,16 @@
               <button class="btn" data-filter=".indian">INDIAN</button>
               <button class="btn" data-filter=".italian">ITALIAN</button>
               <button class="btn" data-filter=".mediterranean">MEDITERRANEAN</button>
-              <button class="btn" data-filter=".mexican">MEXICAN</button>
               <br> <br> 
+              <button class="btn" data-filter=".mexican">MEXICAN</button>
               <button class="btn" data-filter=".beverages">BEVERAGES</button>
               <button class="btn" data-filter=".dessert">DESSERT</button>
               <button class="btn" data-filter=".fastFood">FAST FOOD</button>
               <button class="btn" data-filter=".pizza">PIZZA</button>
               <button class="btn" data-filter=".pub">PUB/BAR</button>
             </div>
-
+          </div>
+          <div id="otherinfo">
           <p class="instruction">LOCATION</p>
           <div class="button-group" data-filter-group="location">
             <button class="btn is-checked" data-filter="">NO PREFERENCE</button>
@@ -87,10 +88,11 @@
             <button class="btn" data-filter=".star5">FIVE</button>
         </div>
       </div>
+      </div>
+      <br>
+      <p style="clear:both;" class="story">Click each restaurant for more information.</p>
 
-      <p class="story">Click each restaurant for more information.</p>
-
-      <div class="isotope">
+      <div class="isotope" style="clear: both;">
 
         <div class="element-item american fastFood north dollar1 star3 star4">
           <div class="thumbbox">
